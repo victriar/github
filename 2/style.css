@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+div.wrapper {
+    background: peachpuff url(31.jpg) center no-repeat;
+    font-size: 18px;
+    font-family: "Century Gothic", sans-serif;
+    width: inherit;
+}
+.header{
+background: linear-gradient(#aa1133, #f08080);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+ul.menu{
+    display: flex;
+    justify-content: space-around;
+    /*align-content: center;*/
+    height: 100px;
+    margin: 0;
+    padding: 30px 20px 0 20px;
+    list-style: none;
+    /*background-color: lightcoral;*/
+    font-size: 20px;
+    box-shadow: 4px 4px 4px peachpuff;
+    vertical-align: center;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    display: flex;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 2px;
+    width: 100px;
+    position: relative;
+    flex-basis: 100px;
+    height: 50px;
+}
+
+ul.menu > li > h1 {
+    text-shadow: 4px 4px 4px dimgrey;
+    font-size: 15px;
+    /*text-align: match-parent;*/
+    color: white;
+    flex-grow: 2;
+}
+
+ul.menu > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+}
+
+ul.menu > li > a:hover {
+    background-color: brown;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    background-color: burlywood;
+    border: 1px solid peru;
+    text-align: left;
+    margin-top: 40px;
+}
+
+ul.submenu > li {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 5px;
+    border: 1px solid burlywood;
+    color: white;
+    background-color: sandybrown;
+    text-decoration: none;
+
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+
+}
+
+.main {
+    padding: 135px 15px 15px;
+}
+.all-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.item{
+    text-align: center;
+    width: 400px;
+}
+.item > img {
+    max-height: 200px;
+    box-shadow: 4px 4px 4px dimgrey;
+}
+
+.item > h3 {
+    text-align: center;
+    color: brown;
+    text-shadow: 4px 4px 4px peachpuff;>
+}
+.item > h3 > a {
+    text-decoration: none;
+}
+
+.item > p> button {
+
+    background:    linear-gradient(#f9cb9c, #cc0000);
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer
+;
+}
+
+.footer{
+    background-color: lightcoral;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}

@@ -1,0 +1,37 @@
+body{
+    background: #000000;
+}
+
+div.wrapper{
+    background: gainsboro;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: "Century Gothic", sans-serif;
+    padding: 3% 15% 10% 20%;
+    -webkit-box-shadow: 15px 25px 45px -14px rgba(255,255,255,1);
+    -moz-box-shadow: 15px 25px 45px -14px rgba(255,255,255,1);
+    box-shadow: 15px 25px 45px -14px rgba(255,255,255,1);
+}
+.box1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.box2{
+    color: gray;
+    border: 0px solid gray;
+    border-bottom-width: 1px;
+}
+.common-box{
+    border: 0px solid gray;
+    border-bottom-width: 1px;
+}
+
+.box4 {
+    color: green;
+}
+/*.box4{*/
+    /*border: 0px solid gray;*/
+    /*border-bottom-width: 1px;*/
+/*}*/
