@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
 </head>
 <body>
-$END$
+<div class="wrapper">
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#" class="menuTasks">Meu YouBike</a></li>
+                <li><a href="#" class="menuTasks">Vender</a></li>
+                <li><a href="#" class="menuTasks">Forum</a></li>
+                <li><a href="#" class="menuTasks">Contato </a></li>
+                <li><a href="#" class="menuTasks">Ajuda</a></li>
+                <li><a href="#" class="menuTasks Minhas"><img src="flag.png" alt="flag" class="flag">Minhas Ofertas</a>
+                </li>
+                <li class="Ola">Ola! <a href="#" class="enter">Entrar</a> ou <a href="#" class="enter">Cadastre-se</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <section><h1 class="head1">Cadastre-se</h1>
+            <form action="/" method="POST" class="form">
+                <p>
+                    <a href="#" class="fb"><img src="fb.png" alt="FB"></a>
+                </p>
+                <p class="ou"> OU </p>
+                <p>
+                    <input type="text" class="form_item" name="first_name" placeholder="First name" required>
+                </p>
+                <p><input type="text" class="form_item" name="last_name" placeholder="Last name" required></p>
+                <p><input type="email" class="form_item" name="email" placeholder="Email address" required></p>
+                <p><input type="password" class="form_item" name="passwordChoose" placeholder="Choose Password"
+                          required></p>
+                <p><input type="password" class="form_item" name="passwordConfirm" placeholder="Password Confirm"
+                          required></p>
+                <p class="tip"><label for="Youbike"><input type="checkbox" name="Youbike" id="Youbike">Send me Youbike
+                    updates and tips</label></p>
+                <button type="submit" id="submit">Create my Account</button>
+
+                <p class="privacy">By clicking the button above, you agree to the Terms of Service
+                    Xiew our Privacy Policy.</p>
+            </form>
+        </section>
+    </article>
+    <footer></footer>
+</div>
 </body>
 </html>
