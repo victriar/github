@@ -1,0 +1,515 @@
+
+.wrapper {
+    width: 68%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+.top-line {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-top: -9px;
+    margin-bottom: 6px;
+}
+
+.phone-icon {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    margin: 5px 7px;
+    left: 0;
+}
+
+.phones {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    color: #5e696d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 33px;
+    margin-top: 13px;
+}
+
+.sec-number {
+    margin-left: 3px;
+}
+
+.enter-form {
+
+    display: inline-block;
+    background: -webkit-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -moz-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -o-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    box-shadow: 1px 3px 3px 0 rgba(150, 150, 150, 0.75);
+    padding-top: 6px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    position: relative;
+    border-radius: 2px;
+    margin-left: 12px;
+    width: 485px;
+    height: 14px;
+}
+
+.man {
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    left: 2px;
+}
+
+.form-container {
+    margin-top: -2px;
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 14px;
+}
+
+.form-item {
+    display: inline-block;
+    border: 1px solid #9ba1a3;
+    background-color: #ffffff;
+    width: 111px;
+    height: 4px;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    color: #bfbfbf;
+    font-size: 12px;
+    margin-left: 3px;
+    padding-top: 9px;
+    padding-bottom: 2px;
+    vertical-align: top;
+}
+
+.enter {
+    display: inline-block;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 11px;
+    vertical-align: super;
+    padding-right: 0px;
+}
+
+.registration {
+    display: inline-block;
+    border-left: 1px solid white;
+    padding-left: 2px;
+    vertical-align: text-top;
+}
+
+.forgotPassword {
+    display: inline-block;
+    color: #bfbfbf;
+    font-family: inherit;
+    font-size: 14px;
+    padding-left: 17px;
+    vertical-align: top;
+}
+
+.icons {
+    display: inline-block;
+    overflow: hidden;
+
+    font-size: 0;
+    padding-left: 5px;
+}
+
+.icon-link {
+    display: inline-block;
+    height: 27px;
+}
+
+.home {
+    background: white url("icons.png");
+    width: 35px;
+}
+
+.home:hover {
+    background: white url("icons.png") left 0 top -29px;
+}
+
+.algo {
+    background: white url("icons.png") right -38px top 0;
+    width: 24px;
+}
+
+.algo:hover {
+    background: white url("icons.png") right -38px top -29px;
+}
+
+.sms {
+    background: white url("icons.png") right -10px top 0;
+    width: 24px;
+}
+
+.sms:hover {
+    background: white url("icons.png") right -10px top -29px;
+}
+
+nav {
+    background: -webkit-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
+    background: -moz-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
+    background: -o-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
+    background: -ms-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
+    background: linear-gradient(0deg, #000000 0%, #4c535a 87%, #576068 100%);
+    border: 1px solid #0d1642;
+    border-radius: 3px;
+    display: inline-block;
+    width: 99%;
+    overflow: hidden;
+    margin-top: 3px;
+    padding-bottom: 9px;
+}
+
+.header-nav {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 140px;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+.header-nav li {
+    display: inline-block;
+}
+
+.header-nav a {
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #b1bcc0;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 4px;
+
+}
+
+.header-nav a:hover {
+    background: -webkit-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -moz-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -o-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    border-radius: 14px;
+    color: white;
+}
+
+.buy {
+    /*display: inline-block;*/
+    position: relative;
+    text-align: right;
+    float: right;
+
+}
+
+.basket {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-number {
+    margin-left: 30px;
+}
+
+.header-text {
+    color: #929b9f;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+.header-number {
+    font-family: Arial, sans-serif;
+    color: #0d5a8f;
+    font-size: 12px;
+}
+
+.car, .wheel, .disk {
+    border: 1px solid #9c9c9d;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 5px 0 rgba(104, 104, 104, 0.75);
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    font-size: 10px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 20px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.car{
+    width: 45%;
+    line-height: 1;
+    margin-left: 6px;}
+
+.disk {
+    width: 39%;
+    line-height: 1;
+    margin-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+}
+
+.wheel {
+    width: 21%;
+    line-height: 1;
+    margin-top: 10px;
+    margin-left: 9px;
+    padding-bottom: 34px;
+}
+
+.form-main-head {
+    font-family: Arial, sans-serif;
+    color: #154467;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.link-search {
+    font-family: Arial, sans-serif;
+    color: #154467;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 28px;
+    text-decoration: underline;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+select {
+    overflow: hidden;
+}
+
+.car-wheel, .diametr-left {
+    display: block;
+    float: left;
+    width: 49%;
+}
+
+.grey-text {
+    color: #77858b;
+    font-size: 9px;
+}
+
+.car-disks, .diametr-right {
+    display: block;
+    float: right;
+    width: 49%;
+}
+
+.form-head {
+    font-family: Arial, sans-serif;
+    color: #154468;
+    font-size: 10px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.season {
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.diametr-right {
+    border-left: 1px solid #77858b;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.list-main-head {
+    display: block;
+    text-transform: uppercase;
+    border: 1px solid #79878d;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 3px 0 rgba(150, 150, 150, 0.75);
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    color: #114165;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    position: relative;
+    padding-left: 35px;
+}
+
+.list-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.list-head {
+    display: block;
+    text-transform: uppercase;
+    border: 1px solid #79878d;
+    border-radius: 15px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #0c3256;;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    position: relative;
+    padding-left: 35px;
+}
+
+.submenu {
+    list-style: circle;
+}
+
+.submenu a {
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    color: #465961;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.submenu a:hover {
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    color: #0c3256;
+    font-size: 13px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 28px;
+    text-decoration: underline;
+    text-align: left;
+}
+
+aside {
+    display: block;
+    width: 20%;
+    float: right;
+}
+
+.button {
+    border: 1px solid #a7abae;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -moz-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -o-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    width: 80px;
+    height: 26px;
+    color: white;
+}
+
+content {
+    display: block;
+    float: left;
+    width: 60%;
+    background: -webkit-linear-gradient(90deg, #234b5d 0%, #81969f 57%, #c9cfd1 100%);
+    background: -moz-linear-gradient(90deg, #234b5d 0%, #81969f 57%, #c9cfd1 100%);
+    background: -o-linear-gradient(90deg, #234b5d 0%, #81969f 57%, #c9cfd1 100%);
+    background: -ms-linear-gradient(90deg, #234b5d 0%, #81969f 57%, #c9cfd1 100%);
+    background: linear-gradient(0deg, #234b5d 0%, #81969f 57%, #c9cfd1 100%);
+}
+
+.item {
+    display: inline-block;
+    text-align: center;
+}
+
+.item-head {
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    color: #206988;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}
+
+.item-model {
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    color: #1f2528;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}
+
+.price {
+    font-family: Arial, sans-serif;
+    color: #114165;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 11px;
+    text-align: center;
+}
+
+.nav-footer {
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    background-color: #213a4d;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.footer-list {
+    display: inline-block;
+
+}
+
+.footer-list > li {
+    display: inline-block;
+}
+
+.footer-link {
+    display: block;
+    text-decoration: none;
+    color: #bec6c9;
+    border-right: 2px solid #bec6c9;
+}
+.footer-link:hover{
+    color: #52abcb;
+}
+.last{
+    border-right: 0;
+}
+.global{
+    display: block;
+    color: #7f4740;
+}
